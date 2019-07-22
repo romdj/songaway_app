@@ -1,6 +1,6 @@
 # songaway_app
-
-A new Flutter project.
+## CICD STATUS:
+[![Build Status](https://travis-ci.com/romdj/songaway_app.svg?branch=master)](https://travis-ci.com/romdj/songaway_app)
 
 ## Getting Started
 
