@@ -7,14 +7,30 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Startup Name Generator',
-      home: RandomWords(),
+      title: 'Songaway App',
+      // home: RandomWords(),
       // theme: ThemeData.light(),
-      theme: new ThemeData(
-        primarySwatch: Colors.orange,
-      ),
+      theme: new ThemeData.dark()
+        // primarySwatch: Colors.orange,
+      // ),
     );
   }
+}
+
+const HomeItems = ['Music', 'Audiobooks'];
+const States = ['Home', 'Artists', 'Albums', 'Songs', 'Books'];
+
+class ActivityList extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() => new ListState();
+} 
+class ListState extends State {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return null;
+  }
+
 }
 
 class RandomWords extends StatefulWidget {
