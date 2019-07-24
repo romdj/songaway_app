@@ -1,0 +1,1 @@
+enum SAType { Music, AudioBook, Video}
